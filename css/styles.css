@@ -1,11 +1,55 @@
+:root {
+  --primary-text-color: #212121;
+}
+
 .page {
   background-color: #ffffff;
   color: #757575;
 }
 
-.logo {
-  color: #212121;
+/* Убрал выделение нумерации */
+.list {
+  list-style: none;
 }
+
+/* Site navigation */
+
+/*.site-nav {
+}
+*/
+
+.logo {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.contact-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Contact navigation */
+
+.contact-nav .link {
+  color: #757575;
+}
+
+/* Hero section */
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Section title */
+.section-title {
+  color: var(--primary-text-color);
+}
+
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* цвет логотипа #2196F3 */
