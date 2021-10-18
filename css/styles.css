@@ -1,10 +1,13 @@
 :root {
-  --primary-text-color: #212121;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --background-color: #ffffff;
 }
 
 .page {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* Убрал выделение нумерации */
@@ -19,35 +22,37 @@
 */
 
 .logo {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 
 .site-nav .link {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .contact-nav .link:hover,
 .site-nav .link:focus,
 .contact-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
 
 /* Contact navigation */
 
 .contact-nav .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* Hero section */
-.hero-button {
-  color: #ffffff;
-  background-color: #2196f3;
+
+/* Button */
+.button {
+  color: var(--background-color);
+  background-color: var(--accent-text-color);
 }
 
 /* Section title */
 .section-title {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 
 /* цвет основного текста #212121 */
