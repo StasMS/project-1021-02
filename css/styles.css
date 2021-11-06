@@ -5,7 +5,7 @@ Roboto
 700
 900
 */
-
+/* Цвета главной страницы */
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* цвет логотипа #2196F3 */
@@ -15,18 +15,26 @@ Roboto
 /* цвет адреса белый #FFFFFF */
 /* цвет емейла и телефона в футере rgba(255, 255, 255, 0.6) */
 
+/* Цвета портфолио */
+/* Шапка и футер так же как и на главной странице */
+/* Меню навигации по видам работ: */
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+
 /* Основные цвета */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --background-color: #ffffff;
+  --title-button-color: #f5f4fa;
 }
 
 /* Главная страница */
 .page {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, Raleway, sans-serif;
 }
 
 /* Убрал выделение нумерации */
@@ -75,3 +83,14 @@ Roboto
 }
 
 /* Портфолио */
+
+/* Portfolio navigation */
+
+/* Button */
+.title-button {
+  background-color: var(--title-button-color);
+}
+
+.portfolio-nav .title-button:hover {
+  color: var(--background-color);
+}
