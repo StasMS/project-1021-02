@@ -4,7 +4,16 @@ Roboto
 500
 700
 900
-*/
+
+/*letter-spacing
+Логотип: letter-spacing: 0.03em;
+Меню навигации: letter-spacing: 0.02em;
+Герой: letter-spacing: 0.06em; */
+/*Преимущества:letter-spacing: 0.06em;
+Виды работ: letter-spacing: 0.03em;
+Наша команда: letter-spacing: 0.03em;
+Раздел ПОРТФОЛИО: кнопки навигации по работам: letter-spacing: 0.03em;*/
+
 /* Цвета главной страницы */
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -35,6 +44,7 @@ Roboto
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: Roboto, Raleway, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* Убрал выделение нумерации */
@@ -49,7 +59,20 @@ Roboto
 */
 
 .logo {
+  font-family: Raleway, sans-serif;
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-span {
+  color: var(--accent-text-color);
+}
+
+.site-nav,
+.contact-nav {
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -71,6 +94,9 @@ Roboto
 
 /* Hero section */
 
+.hero {
+  letter-spacing: 0.06em;
+}
 /* Button */
 .button {
   color: var(--background-color);
@@ -93,4 +119,7 @@ Roboto
 
 .portfolio-nav .title-button:hover {
   color: var(--background-color);
+}
+.portfolio-nav h3 {
+  letter-spacing: 0.06em;
 }
