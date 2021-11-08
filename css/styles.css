@@ -41,7 +41,7 @@ Roboto
 
 /* Главная страница */
 .page {
-  background-color: #ffffff;
+  background-color: var(--background-color);
   color: var(--primary-text-color);
   font-family: Roboto, Raleway, sans-serif;
   letter-spacing: 0.03em;
@@ -72,6 +72,9 @@ Roboto
 
 .site-nav,
 .contact-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -97,15 +100,44 @@ Roboto
 .hero {
   letter-spacing: 0.06em;
 }
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* Button */
 .button {
   color: var(--background-color);
   background-color: var(--accent-text-color);
+  font-family: inherit;
+}
+
+/* Кнопка героя */
+.hero .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /*align-items: center;
+  text-align: center;*/
 }
 
 /* Section title */
 .section-title {
   color: var(--title-text-color);
+}
+
+/* Footer */
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: var(--accent-text-color);
+}
+
+.footer-address .link {
+  color: #ffffff;
 }
 
 /* Портфолио */
@@ -115,9 +147,11 @@ Roboto
 /* Button */
 .title-button {
   background-color: var(--title-button-color);
+  font-family: inherit;
 }
 
-.portfolio-nav .title-button:hover {
+.portfolio-nav .title-button:hover,
+.portfolio-nav .title-button:focus {
   color: var(--background-color);
 }
 .portfolio-nav h3 {
