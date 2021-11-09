@@ -117,27 +117,72 @@ Roboto
 }
 
 /* Кнопка героя */
-.hero .button {
+.hero .div-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /*align-items: center;
-  text-align: center;*/
+  align-items: center;
+  text-align: center;
 }
+
+/* Основные преимущества */
 
 /* Section title */
 .section-title {
   color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Advantages */
+.section-our-advantages {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Our-work-title */
+.our-work-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+/* Our team */
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
 }
 
 /* Footer */
-.footer-address .link:hover,
-.footer-address .link:focus {
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-text-color);
 }
 
-.footer-address .link {
-  color: #ffffff;
+.address {
+  color: var(--background-color);
+}
+
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Портфолио */
@@ -148,6 +193,10 @@ Roboto
 .title-button {
   background-color: var(--title-button-color);
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62
+  text-align: center;
 }
 
 .portfolio-nav .title-button:hover,
